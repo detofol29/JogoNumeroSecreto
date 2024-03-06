@@ -1,5 +1,5 @@
-﻿Random aleatorio = new Random();
-int numeroSecreto = aleatorio.Next(1, 100);
+﻿Random numeroAleatorio = new Random();
+int numeroSecreto = numeroAleatorio.Next(1, 100);
 ////
 do{
     Console.WriteLine("Digite um número entre 1 e 100: ");
